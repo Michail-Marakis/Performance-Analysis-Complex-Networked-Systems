@@ -1,0 +1,11 @@
+pyproject.toml
+my_awesome_app/__init__.py
+my_awesome_app/client.py
+my_awesome_app/server.py
+my_awesome_app/strategy.py
+my_awesome_app/task.py
+my_awesome_app.egg-info/PKG-INFO
+my_awesome_app.egg-info/SOURCES.txt
+my_awesome_app.egg-info/dependency_links.txt
+my_awesome_app.egg-info/requires.txt
+my_awesome_app.egg-info/top_level.txt
