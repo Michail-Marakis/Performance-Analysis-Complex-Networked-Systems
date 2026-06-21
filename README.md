@@ -50,23 +50,21 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 Performance-Analysis-Complex-Networked-Systems/
 │
-|
-│
 ├── nolora/
-│   ├── pyproject.toml
-│   └── my_awesome_app/
-│       ├── server.py
-│       ├── client.py
-│       ├── task.py
-│       └── strategy.py
+│ ├── pyproject.toml
+│ └── my_awesome_app/
+│ ├── server.py
+│ ├── client.py
+│ ├── task.py
+│ └── strategy.py
 │
 ├── lora/
-│   ├── pyproject.toml
-│   └── my_awesome_app/
-│       ├── server.py
-│       ├── client.py
-│       ├── task.py
-│       └── strategy.py
+│ ├── pyproject.toml
+│ └── my_awesome_app/
+│ ├── server.py
+│ ├── client.py
+│ ├── task.py
+│ └── strategy.py
 │
 └── README.md
 
