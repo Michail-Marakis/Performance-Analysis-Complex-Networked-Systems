@@ -16,21 +16,23 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## System Architecture
 
-                     Flower Server
-                           │
-                           ▼
-                  Global TinyBERT Model
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
-   Client 1            Client 2           Client N
-        │                  │                  │
-        ▼                  ▼                  ▼
-   Local Dataset      Local Dataset      Local Dataset
-        └────────── Updated Weights ──────────┘
-                           │
-                           ▼
-                    FedAvg Aggregation
+```text
+                          Flower Server
+                                │
+                                ▼
+                       Global TinyBERT Model
+                                │
+            ┌───────────────────┼───────────────────┐
+            │                   │                   │
+            ▼                   ▼                   ▼
+        Client 1            Client 2            Client N
+            │                   │                   │
+            ▼                   ▼                   ▼
+     Local Dataset      Local Dataset      Local Dataset
+            └────────── Updated Weights ───────────┘
+                                │
+                                ▼
+                       FedAvg Aggregation
 
 ---
 
