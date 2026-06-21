@@ -16,7 +16,6 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## System Architecture
 
-```text
                           Flower Server
                                 │
                                 ▼
