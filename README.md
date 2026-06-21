@@ -48,6 +48,25 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
+```text
+Performance-Analysis-Complex-Networked-Systems/
+│
+├── nolora/
+│   └── my_awesome_app/
+│       ├── server.py
+│       ├── client.py
+│       ├── task.py
+│       └── strategy.py
+│
+├── lora/
+│   └── my_awesome_app/
+│       ├── server.py
+│       ├── client.py
+│       ├── task.py
+│       └── strategy.py
+│
+└── README.md
+
 - `server.py` → orchestration, aggregation, evaluation  
 - `client.py` → local training and metrics  
 - `task.py` → TinyBERT pipeline, dataset handling, training logic  
