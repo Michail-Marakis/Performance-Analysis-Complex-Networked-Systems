@@ -48,6 +48,7 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
+```text
 Performance-Analysis-Complex-Networked-Systems/
 │
 |
@@ -69,6 +70,8 @@ Performance-Analysis-Complex-Networked-Systems/
 │       └── strategy.py
 │
 └── README.md
+
+---
 
 - `server.py` → orchestration, aggregation, evaluation  
 - `client.py` → local training and metrics  
