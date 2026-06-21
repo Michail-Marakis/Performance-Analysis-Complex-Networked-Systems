@@ -48,7 +48,6 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
-```text
 Performance-Analysis-Complex-Networked-Systems/
 │
 |
