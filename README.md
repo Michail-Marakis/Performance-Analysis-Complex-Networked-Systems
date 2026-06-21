@@ -48,10 +48,12 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
-```text
 Performance-Analysis-Complex-Networked-Systems/
 │
+|
+│
 ├── nolora/
+│   ├── pyproject.toml
 │   └── my_awesome_app/
 │       ├── server.py
 │       ├── client.py
@@ -59,6 +61,7 @@ Performance-Analysis-Complex-Networked-Systems/
 │       └── strategy.py
 │
 ├── lora/
+│   ├── pyproject.toml
 │   └── my_awesome_app/
 │       ├── server.py
 │       ├── client.py
