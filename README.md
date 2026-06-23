@@ -48,8 +48,10 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
+```text
 data/
 └── Rotten Tomatoes dataset
+
 src/
 ├── lora/
 │   └── my_awesome_app/
@@ -67,6 +69,7 @@ src/
     │
     └── example_results/
         └── Demonstration of results obtained with the selected hyperparameters
+```
         
 - `server.py` → orginisation, aggregation, evaluation  
 - `client.py` → local training and metrics  
