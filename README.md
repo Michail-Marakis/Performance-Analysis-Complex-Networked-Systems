@@ -48,7 +48,7 @@ Federated Learning enables multiple clients to collaboratively train a global mo
 
 ## Code Structure
 
-- `server.py` → orchestration, aggregation, evaluation  
+- `server.py` → orginisation, aggregation, evaluation  
 - `client.py` → local training and metrics  
 - `task.py` → TinyBERT pipeline, dataset handling, training logic  
 - `strategy.py` → custom FedAvg strategy, logging, performance tracking  
