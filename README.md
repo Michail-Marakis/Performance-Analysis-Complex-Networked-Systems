@@ -4,16 +4,6 @@ This project implements and analyzes a Federated Learning system using the **Flo
 
 ---
 
-## Overview
-
-Federated Learning enables multiple clients to collaboratively train a global model without sharing raw data.
-
-- Model: TinyBERT  
-- Dataset: Rotten Tomatoes sentiment dataset  
-- Aggregation: FedAvg  
-
----
-
 ## System Architecture
 
                           Flower Server
