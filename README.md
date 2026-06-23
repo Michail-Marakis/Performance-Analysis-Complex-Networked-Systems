@@ -250,7 +250,7 @@ Quantum Federated Learning extends traditional federated learning by integrating
 - Distributed setups introduce significant network latency
 - Communication is the main bottleneck in FL systems
 - Hardware constraints strongly affect batch size and scalability
-- Simulation results differ significantly from real-world deployment
+- Importance of understanding Queueing Theory on these simulations
 - QFL represents a promising future research direction for FL systems
 
 ---
