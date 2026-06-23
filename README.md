@@ -73,7 +73,7 @@ src/
         └── Demonstration of results obtained with the selected hyperparameters
 ```
 
-### Core Files
+### Files
 
 - `server.py` → federation orchestration, aggregation, and evaluation
 - `client.py` → local training and metrics collection
@@ -169,6 +169,54 @@ Goal:
 |-------------|--------|------------|------------|------|
 | Local       | 10     | 10         | 16         | Simulation / performance benchmark |
 | Distributed | 2      | 2         | 8          | Real-world deployment |
+
+---
+
+## Results Summary
+
+The primary objective of this project is **not to maximize model accuracy**, but to analyze the communication bottlenecks of Federated Learning systems under realistic hardware and network constraints.
+
+All values below correspond to the **final federation round (Round 10)**.
+
+### Local Setup (Simulation)
+
+| Method | Accuracy | Data Transmitted | Training Time |
+|----------|----------|------------------|---------------|
+| Full Fine-Tuning | 0.57 | 167.32 MB | 4.37 min |
+| LoRA | 0.55 | 0.63 MB | 3.12 min |
+
+**Observation**
+
+LoRA reduced transmitted data by approximately **99.62%** (167.32 MB → 0.63 MB) while sacrificing only **3.5% accuracy** (0.57 → 0.55). Additionally, total training time was reduced by approximately **29%**. :contentReference[oaicite:0]{index=0}
+
+---
+
+### Distributed Setup (Real Deployment)
+
+| Method | Accuracy | Data Transmitted | Training Time |
+|----------|----------|------------------|---------------|
+| Full Fine-Tuning | 0.63 | 340.14 MB | 14.46 min |
+| LoRA | 0.59 | 1.42 MB | 10.58 min |
+
+**Observation**
+
+LoRA reduced transmitted data by approximately **99.58%** (340.14 MB → 1.42 MB) while sacrificing only **6.3% accuracy** (0.63 → 0.59). Total training time was reduced by approximately **26.8%**. :contentReference[oaicite:1]{index=1}
+
+---
+
+### Main Conclusion
+
+This project focuses primarily on **communication efficiency rather than absolute model accuracy**.
+
+The results show that:
+
+- LoRA consistently reduces communication overhead by approximately **99.6%**
+- Accuracy remains relatively close to Full Fine-Tuning
+- Distributed deployments introduce substantial network and synchronization delays
+- Communication becomes the dominant bottleneck as systems scale
+- Parameter-efficient techniques such as LoRA are essential for practical Federated Learning deployments
+
+Therefore, the most important metric in this study is **bandwidth consumption and system scalability**, not achieving the highest possible classification accuracy on the Rotten Tomatoes dataset.
 
 ---
 
