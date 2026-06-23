@@ -178,7 +178,7 @@ All values below correspond to the **final federation round (Round 10)**.
 
 **Observation**
 
-LoRA reduced transmitted data by approximately **99.62%** (167.32 MB → 0.63 MB) while sacrificing only **3.5% accuracy** (0.57 → 0.55). Additionally, total training time was reduced by approximately **29%**. :contentReference[oaicite:0]{index=0}
+LoRA reduced transmitted data by approximately **99.62%** (167.32 MB → 0.63 MB) while sacrificing only **3.5% accuracy** (0.57 → 0.55). Additionally, total training time was reduced by approximately **29%**.
 
 ---
 
@@ -191,7 +191,7 @@ LoRA reduced transmitted data by approximately **99.62%** (167.32 MB → 0.63 MB
 
 **Observation**
 
-LoRA reduced transmitted data by approximately **99.58%** (340.14 MB → 1.42 MB) while sacrificing only **6.3% accuracy** (0.63 → 0.59). Total training time was reduced by approximately **26.8%**. :contentReference[oaicite:1]{index=1}
+LoRA reduced transmitted data by approximately **99.58%** (340.14 MB → 1.42 MB) while sacrificing only **6.3% accuracy** (0.63 → 0.59). Total training time was reduced by approximately **26.8%**.
 
 ---
 
