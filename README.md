@@ -54,6 +54,7 @@ data/
 
 src/
 ├── lora/
+│   ├── pyproject.toml
 │   └── my_awesome_app/
 │       ├── server.py
 │       ├── client.py
@@ -61,6 +62,7 @@ src/
 │       └── task.py
 │
 └── nolora/
+    ├── pyproject.toml
     ├── my_awesome_app/
     │   ├── server.py
     │   ├── client.py
@@ -70,11 +72,22 @@ src/
     └── example_results/
         └── Demonstration of results obtained with the selected hyperparameters
 ```
-        
-- `server.py` → orginisation, aggregation, evaluation  
-- `client.py` → local training and metrics  
-- `task.py` → TinyBERT pipeline, dataset handling, training logic  
-- `strategy.py` → custom FedAvg strategy, logging, performance tracking  
+
+### Core Files
+
+- `server.py` → federation orchestration, aggregation, and evaluation
+- `client.py` → local training and metrics collection
+- `task.py` → TinyBERT pipeline, dataset handling, and training logic
+- `strategy.py` → custom FedAvg strategy, logging, and performance tracking
+- `pyproject.toml` → experiment configuration and main hyperparameter settings
+
+### Dataset
+
+The **Rotten Tomatoes** sentiment analysis dataset is stored in the `data/` directory and is shared by both implementations (`lora` and `nolora`).
+
+### Results
+
+The `nolora/example_results/` directory contains a demonstration of the results obtained using the selected hyperparameters.
 
 ---
 
