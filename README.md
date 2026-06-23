@@ -163,15 +163,6 @@ Goal:
 
 ---
 
-## Key Differences
-
-| Setting      | Clients | Partitions | Batch Size | Goal |
-|-------------|--------|------------|------------|------|
-| Local       | 10     | 10         | 16         | Simulation / performance benchmark |
-| Distributed | 2      | 2         | 8          | Real-world deployment |
-
----
-
 ## Results Summary
 
 The primary objective of this project is **not to maximize model accuracy**, but to analyze the communication bottlenecks of Federated Learning systems under realistic hardware and network constraints.
