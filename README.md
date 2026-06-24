@@ -256,7 +256,7 @@ For more detailed theoretical background, experimental results, and extended ana
 ---
 
 ## How to Run
-> **Note:** Ensure that the paths to the Rotten Tomatoes dataset and the pretrained TinyBERT model are correctly configured according to your local paths before running the experiments.Create and activate a Conda environment, install the project dependencies, and run the Flower application:
+> **Note:** Ensure that the paths to the Rotten Tomatoes dataset and the pretrained TinyBERT model are correctly configured according to your local paths before running the experiments. Create and activate a Conda environment, install the project dependencies, and run the Flower application:
 
 ```bash
 conda create --name env_name python=3.11
