@@ -257,6 +257,6 @@ conda create --name env_name python=3.11
 conda activate env_name     #create and activate Conda environment
 
 cd src/lora      #or src/nolora
-pip install -e   #installs the project and its dependencies in editable mode.
+pip install -e   #installs the project and its dependencies according to the pyproject.toml file
 
 flwr run .
