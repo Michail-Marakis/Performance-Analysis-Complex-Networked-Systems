@@ -252,3 +252,17 @@ For more detailed theoretical background, experimental results, and extended ana
 `presentation.pdf`
 
 (Contains full Queueing theory, Little's Law, QFL discussion, and detailed experimental results)
+
+---
+
+## How to Run
+> **Note:** Ensure that the paths to the Rotten Tomatoes dataset and the pretrained TinyBERT model are correctly configured according to your local paths before running the experiments.Create and activate a Conda environment, install the project dependencies, and run the Flower application:
+
+```bash
+conda create --name env_name python=3.11
+conda activate env_name     #create and activate Conda environment
+
+cd src/lora      #or src/nolora
+pip install -e   #installs the project and its dependencies in **editable mode**. This allows modifications to the source code to take effect immediately without requiring a new installation after each change
+
+flwr run .
