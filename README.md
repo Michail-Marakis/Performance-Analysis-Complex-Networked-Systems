@@ -226,12 +226,6 @@ This project also briefly references **Quantum Federated Learning (QFL)** as an 
 
 Quantum Federated Learning extends traditional federated learning by integrating **quantum computing principles** into the learning pipeline.
 
-- Combines quantum computing with federated learning for distributed training  
-- Uses quantum communication (e.g., teleportation) instead of classical transmission  
-- Motivated by potential speedups, reduced communication costs, and stronger security  
-- Limited today by quantum hardware constraints, noise, and fidelity loss in long-distance networks  
-- Represents a future vision of large-scale, secure, and efficient distributed learning systems  
-
 ---
 
 ## Key Findings
