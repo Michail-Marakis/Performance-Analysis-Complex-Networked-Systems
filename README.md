@@ -96,8 +96,6 @@ Cons:
 - High memory usage
 - Slower training
 
----
-
 ### LoRA (Low-Rank Adaptation)
 
 W = W₀ + BA
