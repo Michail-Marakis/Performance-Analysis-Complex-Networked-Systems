@@ -4,27 +4,6 @@ This project implements and analyzes a Federated Learning system using the **Flo
 
 ---
 
-## System Architecture
-
-                          Flower Server
-                                │
-                                ▼
-                       Global TinyBERT Model
-                                │
-            ┌───────────────────┼───────────────────┐
-            │                   │                   │
-            ▼                   ▼                   ▼
-        Client 1            Client 2            Client N
-            │                   │                   │
-            ▼                   ▼                   ▼
-     Local Dataset      Local Dataset      Local Dataset
-            └────────── Updated Weights ───────────┘
-                                │
-                                ▼
-                       FedAvg Aggregation
-
----
-
 ## Federated Learning Workflow
 
 1. Initialize global model
