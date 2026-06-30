@@ -156,22 +156,6 @@ LoRA reduced transmitted data by approximately **99.58%** (340.14 MB → 1.42 MB
 
 ---
 
-### Main Conclusion
-
-This project focuses primarily on **communication efficiency rather than absolute model accuracy**.
-
-The results show that:
-
-- LoRA consistently reduces communication overhead by approximately **99.6%**
-- Accuracy remains relatively close to Full Fine-Tuning
-- Distributed deployments introduce substantial network and synchronization delays
-- Communication becomes the dominant bottleneck as systems scale
-- Parameter-efficient techniques such as LoRA are essential for practical Federated Learning deployments
-
-Therefore, the most important metric in this study is **bandwidth consumption and system scalability**, not achieving the highest possible classification accuracy on the Rotten Tomatoes dataset.
-
----
-
 ## Network Model
 
 The system is modeled as an M/G/1 queue:
